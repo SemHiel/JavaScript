@@ -8,6 +8,5 @@ function sayItLoud (textString) {
     message.onend = function(event){
         window.speechSynthesis.cancel();
     }
-
   }
-  
+

@@ -53,3 +53,10 @@
       message.text = "Dikke vette pauper huts";
       window.speechSynthesis.speak(message);
     }
+
+    const onderwerp = ["Sem", "Robin", "Damian"];
+    const werkwoord = ["Does", "Doesn't", "Did"];
+    const restwoord = ["drugs", "Games", "Drink"];
+        
+    let plaatjes = ["https://cdn.pixabay.com/photo/2018/07/09/17/44/baby-elephant-3526681__340.png", "https://www.how-to-draw-funny-cartoons.com/images/cartoon-baby-007.jpg", "https://thumbs.dreamstime.com/b/smiling-heart-cartoon-open-arms-nice-image-all-projects-love-representing-version-its-suggest-idea-40930153.jpg", "https://observer.com/wp-content/uploads/sites/2/2020/05/yoda-art-observer.jpg?quality=80"]
+    let arrayLength = onderwerp.length;

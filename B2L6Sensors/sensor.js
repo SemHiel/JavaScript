@@ -34,12 +34,10 @@ function showDataColor(alpha, beta, gamma){
     document.body.style.background = `rgb(150, ${Math.abs(gamma)*5}, 150)`;
 }
 
-alpha = 50;
-
 function activateVoice(alpha, beta, gamma){
     // voice if Z-axis rotation > value
     if(alpha > 120){
-        let myTxt = "Rotate me why. Not do.";  
+        let myTxt = "Become powerful you have, the dark side in you I sense.";  
         sayItLoud(myTxt); // text 2 speech
 
         // laat het ook in de HTML zien
@@ -54,7 +52,7 @@ function activateVoice(alpha, beta, gamma){
 function showMyImage(alpha, beta, gamma){
     // image if X-axis > value
     if(beta > 40){
-        document.getElementById('myImage').src = "logo.jpg"; // show image
+        document.getElementById('myImage').src = "dikkevettepauperhuts.jpg"; // show image
         }
         else {
             document.getElementById('myImage').src = ""; // no image
